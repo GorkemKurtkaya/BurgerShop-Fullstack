@@ -1,118 +1,83 @@
-# Restaurant Admin Panel
+# 🍔 Restoran Sipariş ve Yönetim Sistemi
 
-Bu proje, bir restoran yönetim sistemi için admin panel uygulamasıdır. Next.js ve Tailwind CSS kullanılarak geliştirilmiştir.
+Bu proje, Elmalı Tech staj programı kapsamında geliştirilmiş bir **web tabanlı restoran sipariş ve yönetim sistemidir**. Kullanıcılar online olarak sipariş verebilirken, işletme sahipleri bu siparişleri anlık olarak takip edebilir. Modern yazılım mimarileri kullanılarak hem kullanıcı deneyimi hem de teknik sürdürülebilirlik ön planda tutulmuştur.
 
-## Özellikler
+## 👨‍💻 Geliştiriciler
+- Görkem Kurtkaya  
+- Ahmet Buğra Kadıoğlu
 
-- 📊 Dashboard ile genel istatistikler
-- 👥 Kullanıcı yönetimi
-- 🍽️ Sipariş yönetimi
-- 📱 Responsive tasarım
-- 🎨 Modern ve kullanıcı dostu arayüz
+## 📌 Proje Özeti
 
-## Teknolojiler
+Web uygulaması üzerinden:
+- Kullanıcılar menüdeki ürünleri inceleyip sepetlerine ekleyebilir.
+- Güvenli bir şekilde ödeme yapabilirler.
+- İşletme sahipleri siparişleri gerçek zamanlı takip edebilir.
 
-- Next.js 14
-- React
-- Tailwind CSS
-- Docker
+Bu süreçlerde **JWT authentication**, **mikroservis mimarisi**, **anlık veri aktarımı**, **ödeme entegrasyonu** gibi gelişmiş teknolojiler kullanılmıştır.
 
-## Başlangıç
+---
 
-### Gereksinimler
+## 🧰 Kullanılan Teknolojiler
 
-- Node.js 18 veya üzeri
-- npm veya yarn
-- Docker (opsiyonel)
+### ⚙️ Backend
+- **Node.js & Express.js**: RESTful API geliştirme.
+- **Supabase**
+  - **PostgreSQL**: Veritabanı çözümü.
+  - **Auth**: Kullanıcı kimlik doğrulama (JWT tabanlı).
+- **Redis**: Hızlı ve geçici veri saklama (sepet yönetimi).
+- **Stripe API**: Güvenli test kartlarıyla ödeme entegrasyonu.
+- **Kafka**: Mikroservisler arası iletişim.
+- **Socket.IO**: Siparişlerin admin paneline anlık aktarımı.
+- **Mikroservis Mimarisi**: Fatura oluşturma işlemi bağımsız bir servis olarak ayrıldı.
 
-### Kurulum
+### 💻 Frontend
+- **Next.js**: SSR (Server Side Rendering) destekli modern frontend framework.
+- **Tailwind CSS**: Hızlı ve ölçeklenebilir stillendirme.
+- **Ant Design**: Admin paneli için kullanıcı dostu bileşenler.
+- **Context API**: Global durum yönetimi.
+- **Bileşen Tabanlı Yapı**: Tekrar kullanılabilir UI yapısı.
 
-1. Projeyi klonlayın:
-```bash
-git clone [repo-url]
-cd restaurant-admin
-```
+---
 
-2. Bağımlılıkları yükleyin:
-```bash
-npm install
-# veya
-yarn install
-```
+## 🚀 Canlı Sunucu Bilgileri
 
-3. Geliştirme sunucusunu başlatın:
-```bash
-npm run dev
-# veya
-yarn dev
-```
+| Servis       | URL |
+|--------------|-----|
+| **Frontend** (AWS App Runner) | [Frontend Linki](https://c2f6rapdaj.eu-central-1.awsapprunner.com/) |
+| **Backend** (Google Cloud Run) | [Backend Linki](https://gcloudetest-559293271562.europe-west1.run.app/) |
+| **Mikroservis** (Fatura) | [Fatura Servisi](https://microservice-559293271562.europe-west1.run.app) |
 
-4. Tarayıcınızda [http://localhost:5173](http://localhost:5173) adresini açın.
+---
 
-### Docker ile Çalıştırma
+## ✅ Proje Özellikleri
 
-```bash
-docker-compose up --build
-```
+- ✅ Online sipariş sistemi  
+- ✅ Gerçek zamanlı admin paneli  
+- ✅ Stripe ile ödeme entegrasyonu  
+- ✅ Mikroservislerle ayrılmış görev dağılımı  
+- ✅ Socket.io ile anlık bildirim  
+- ✅ JWT ile güvenli oturumlar  
+- ✅ Supabase ile kullanıcı yönetimi  
+- ✅ Redis ile hızlı sepet işlemleri
 
-## Proje Yapısı
+---
 
-```
-frontend/
-├── src/
-│   ├── app/
-│   │   ├── admin/
-│   │   │   ├── dashboard/
-│   │   │   ├── orders/
-│   │   │   └── users/
-│   │   └── layout.jsx
-│   ├── components/
-│   └── styles/
-├── public/
-├── package.json
-└── tailwind.config.js
-```
+## 📊 Katkı Dağılımı
 
-## Özellikler Detayı
+| Geliştirici | Görev |
+|-------------|-------|
+| **Görkem Kurtkaya** | Backend mimarisi, mikroservis entegrasyonu, ödeme sistemi (Stripe), Socket.IO ile anlık iletişim, veritabanı yapısı (Supabase & Redis), frontend geliştirme (kullanıcı arayüzleri, admin paneli, responsive tasarım) |
+| **Ahmet Buğra Kadıoğlu** | Frontend geliştirme, kullanıcı arayüzleri, tasarım düzenlemeleri |
 
-### Dashboard
-- Toplam sipariş sayısı
-- Toplam gelir
-- Aktif siparişler
-- Toplam kullanıcı sayısı
-- Son siparişler listesi
+---
 
-### Sipariş Yönetimi
-- Sipariş listesi görüntüleme
-- Sipariş durumu güncelleme
-- Sipariş detayları görüntüleme
-- Sipariş filtreleme
+## 🙏 Teşekkür
 
-### Kullanıcı Yönetimi
-- Kullanıcı listesi görüntüleme
-- Kullanıcı durumu güncelleme
-- Kullanıcı detayları görüntüleme
-- Kullanıcı filtreleme
+Bu projeyi geliştirme sürecinde desteklerini esirgemeyen **Elmalı Tech ailesine**, bize rehberlik eden mentorlarımıza ve birlikte keyifle çalıştığım ekip arkadaşıma teşekkür ederim.  
+Bu proje, yazılım alanındaki gelişimimde önemli bir yapı taşı olmuş ve kariyerime güçlü bir temel kazandırmıştır.
 
-## Geliştirme
+---
 
-### Kod Stili
+## 🏷️ Etiketler
+`#Next.js` `#Node.js` `#Supabase` `#Stripe` `#Redis` `#Kafka` `#Socket.IO` `#Mikroservis` `#StajProjesi`
 
-- ESLint ve Prettier kullanılmaktadır
-- Tailwind CSS ile stil tanımlamaları
-- Component-based mimari
-
-### Yeni Özellik Ekleme
-
-1. İlgili route'u oluşturun
-2. Gerekli componentleri ekleyin
-3. API entegrasyonunu yapın
-4. Test edin
-
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
-
-## İletişim
-
-Sorularınız için: [email@example.com](mailto:email@example.com)
