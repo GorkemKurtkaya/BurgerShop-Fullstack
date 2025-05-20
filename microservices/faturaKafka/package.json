@@ -1,0 +1,26 @@
+{
+  "name": "faturakafka",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "cloudinary": "^2.6.0",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "googleapis": "^148.0.0",
+    "kafkajs": "^2.2.4",
+    "nodemon": "^3.1.9",
+    "pdf-poppler": "^0.2.1",
+    "pdfkit": "^0.17.0",
+    "pg": "^8.15.6",
+    "sharp": "^0.34.1"
+  },
+  "author": "Gorkem",
+  "license": "ISC",
+  "description": ""
+}

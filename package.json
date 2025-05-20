@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-project",
+  "version": "1.0.0",
+  "description": "Restaurant project with frontend, backend and microservices",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && npm install concurrently --save-dev && cd frontend && npm install && cd ../backend && npm install && cd ../microservices/payment && npm install && cd ../orderKafka && npm install",
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm start\"",
+    "start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "express": "^4.21.2",
+    "js-cookie": "^3.0.5",
+    "postgres": "^3.4.5",
+    "supabase": "^2.19.7"
+  }
+}
