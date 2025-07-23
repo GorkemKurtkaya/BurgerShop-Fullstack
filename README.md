@@ -62,6 +62,38 @@ Bu süreçlerde **JWT authentication**, **mikroservis mimarisi**, **anlık veri 
 
 ---
 
+
+##  Ekran Görüntüleri
+
+### 👨‍🍳 Kullanıcı Arayüzü (Müşteri Tarafı)
+
+| 1. Ana Sayfa | 2. Menü |
+|--------------|--------|
+| <img width="400" alt="Ana Sayfa" src="https://github.com/user-attachments/assets/1bb10c62-5e26-463e-8759-12ab94a0d0a3" /> | <img width="400" alt="Menü" src="https://github.com/user-attachments/assets/b96b9aee-e989-4bc1-ad41-f3e8bb1c984b" /> |
+
+| 3. Sipariş Ver | 4. Sepetim |
+|----------------|-----------|
+| <img width="400" alt="Sipariş Ver" src="https://github.com/user-attachments/assets/1b146b54-aedd-4b25-9e19-243fed572d50" /> | <img width="400" alt="Sepetim" src="https://github.com/user-attachments/assets/dd373ce9-0677-460a-9adb-2189a4138bf2" /> |
+
+| 5. Stripe ile Ödeme Sayfası | 6. Siparişlerim |
+|-----------------------------|-----------------|
+| <img width="400" alt="Ödeme Sayfası" src="https://github.com/user-attachments/assets/76068539-4ff9-43d9-811a-75b91c81c6ca" /> | <img width="400" alt="Siparişlerim" src="https://github.com/user-attachments/assets/37beb1d9-9eb1-4aaf-94f3-22776f36f98c" /> |
+
+### 👨‍💼 Yönetici Paneli (Admin Tarafı)
+
+| 7. Admin Panel Ana Sayfası | 8. Menü Yönetimi |
+|---------------------------|------------------|
+| <img width="400" alt="Admin Ana Sayfa" src="https://github.com/user-attachments/assets/44a99d00-f79b-4039-81fe-7acb218e20d2" /> | <img width="400" alt="Menü Yönetimi" src="https://github.com/user-attachments/assets/5d8f761f-a926-4726-8fb1-aa65e9f9f5f6" /> |
+
+| 9. Siparişler | 10. Raporlar |
+|---------------|--------------|
+| <img width="400" alt="Siparişler" src="https://github.com/user-attachments/assets/d8180c58-d093-478f-8e38-565064ee6972" /> | <img width="400" alt="Raporlar" src="https://github.com/user-attachments/assets/c280bb17-cfc7-41f9-b89e-e74acff505f6" /> |
+
+| 11. Rapor Detayları | 12. Raporun Devamı |
+|---------------------|--------------------|
+| <img width="400" alt="Rapor Detayları" src="https://github.com/user-attachments/assets/3dd55669-9e99-4856-ac2c-fef82a013225" /> | <img width="400" alt="Rapor Devamı" src="https://github.com/user-attachments/assets/903a13bf-459a-4e52-af37-c79afabe1386" /> |
+
+
 ## 📊 Katkı Dağılımı
 
 | Geliştirici | Görev |
