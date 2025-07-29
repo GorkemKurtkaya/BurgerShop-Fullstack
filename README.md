@@ -1,6 +1,6 @@
 # 🍔 Restoran Sipariş ve Yönetim Sistemi
 
-Bu proje, Elmalı Tech staj programı kapsamında geliştirilmiş bir **web tabanlı restoran sipariş ve yönetim sistemidir**. Kullanıcılar online olarak sipariş verebilirken, işletme sahipleri bu siparişleri anlık olarak takip edebilir. Modern yazılım mimarileri kullanılarak hem kullanıcı deneyimi hem de teknik sürdürülebilirlik ön planda tutulmuştur.
+Bu proje, Elmalı Tech  programı kapsamında geliştirilmiş bir **web tabanlı restoran sipariş ve yönetim sistemidir**. Kullanıcılar online olarak sipariş verebilirken, işletme sahipleri bu siparişleri anlık olarak takip edebilir. Modern yazılım mimarileri kullanılarak hem kullanıcı deneyimi hem de teknik sürdürülebilirlik ön planda tutulmuştur.
 
 ## 👨‍💻 Geliştiriciler
 - Görkem Kurtkaya  
